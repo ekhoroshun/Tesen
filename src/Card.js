@@ -13,7 +13,7 @@ class Card extends Component {
 				<img class="card-img-top" alt="img" src={this.props.image} />
 				<div class="card-body">
 					<p class="card-text">{this.props.text}</p>
-					{this.props.rating ? <Stars rating={this.props.rating} /> : null}
+					{this.props.status ? <Stars rating={this.props.rating} /> : null}
 				</div>
 			</div>
 		);

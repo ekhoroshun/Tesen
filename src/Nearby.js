@@ -11,10 +11,10 @@ class Nearby extends Component{
                   <Col sm="12">
                   <h4 className="main-text-style">Near by</h4>
                   <div class="card-group">
-                  <Card image={"image/d4.jpg"} text={"Lorem Ipsum is simply dummy text"} rating={false} />
-                  <Card image={"image/d5.jpg"} text={"Lorem Ipsum is simply dummy text"} rating={false} />
-                  <Card image={"image/d6.jpg"} text={"Lorem Ipsum is simply dummy text"} rating={false} />
-                  <Card image={"image/d7.jpg"} text={"Lorem Ipsum is simply dummy text"} rating={false} />
+                  <Card image={"image/d4.jpg"} text={"Lorem Ipsum is simply dummy text"} status={false} />
+                  <Card image={"image/d5.jpg"} text={"Lorem Ipsum is simply dummy text"} status={false} />
+                  <Card image={"image/d6.jpg"} text={"Lorem Ipsum is simply dummy text"} status={false} />
+                  <Card image={"image/d7.jpg"} text={"Lorem Ipsum is simply dummy text"} status={false} />
                  </div>
                   </Col>
                 </Row>

@@ -201,25 +201,25 @@ class Reviews extends Component {
 							<Card
 								image={"image/5.jpg"}
 								text={"Lorem Ipsum is simply dummy text"}
-								rating={false}
+								status={true}
 								rating={5}
 							/>
 							<Card
 								image={"image/6.jpg"}
 								text={"Lorem Ipsum is simply dummy text"}
-								rating={false}
+								status={true}
 								rating={5}
 							/>
 							<Card
 								image={"image/7.jpg"}
 								text={"Lorem Ipsum is simply dummy text"}
-								rating={false}
+								status={true}
 								rating={5}
 							/>
 							<Card
 								image={"image/8.jpg"}
 								text={"Lorem Ipsum is simply dummy text"}
-								rating={false}
+								status={true}
 								rating={5}
 							/>
 						</div>

@@ -1,0 +1,359 @@
+.menu-toggle {
+	font-size: 30px;
+	cursor: pointer;
+	color: #231b5f;
+}
+
+.nav-styling {
+	background-color: white;
+	height: 60px;
+	.logo {
+		max-height: 28px;
+		margin-left: 20px;
+	}
+	.user-info-wrapper {
+		padding: 25px;
+		.data-holder {
+			font-size: 14px;
+			text-align: right;
+			font-family: "Ubuntu", sans-serif;
+			font-size: 15px;
+			font-weight: 500;
+			line-height: 13px;
+		}
+		.avatar-holder {
+			padding-left: 25px;
+			.btn {
+				background: transparent !important;
+				padding: 0 0 0 0 !important;
+				border: none !important;
+				img {
+					max-width: 35px;
+				}
+			}
+			.dropdown-toggle::after {
+				border-top: 0.3em solid #666 !important;
+			}
+		}
+	}
+}
+
+.menu-icon {
+	background: url("/image/spritesheet.png") cover;
+	display: inline-block;
+}
+
+.sidemenu-body {
+	padding: 0 0 0 15px;
+	ul {
+		li {
+			height: 50px;
+			.icon-holder {
+				width: 50px;
+				height: 100%;
+				.icon-16 {
+					margin-top: 25px;
+					background-position: -0px -0px;
+					width: 60px;
+					height: 42px;
+					zoom: 0.5;
+				}
+				.icon-17 {
+					margin-top: 27px;
+					background-position: -0px -76px;
+					width: 54px;
+					height: 38px;
+					zoom: 0.5;
+				}
+				.icon-18 {
+					margin-top: 21px;
+					background-position: -0px -114px;
+					width: 47px;
+					height: 41px;
+					zoom: 0.6;
+				}
+				.icon-19 {
+					margin-top: 21px;
+					background-position: -0px -42px;
+					width: 57px;
+					height: 34px;
+					zoom: 0.6;
+				}
+				.icon-21 {
+					margin-top: 21px;
+					background-position: -0px -465px;
+					width: 57px;
+					height: 36px;
+					zoom: 0.6;
+				}
+				.icon-22 {
+					margin-top: 21px;
+					background-position: -0px -506px;
+					width: 57px;
+					height: 36px;
+					zoom: 0.6;
+				}
+			}
+			.label-holder {
+				width: calc(100% - 50px);
+			}
+		}
+	}
+}
+
+.sidemenu-wrapper {
+	position: fixed;
+	width: 250px;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: #fff;
+	z-index: 10000;
+	-webkit-transition: all 400ms ease-in;
+	-moz-transition: all 400ms ease-in;
+	-ms-transition: all 400ms ease-in;
+	-o-transition: all 400ms ease-in;
+	transition: all 400ms ease-in;
+
+	.sidemenu-header {
+		padding: 15px;
+	}
+
+	.logo {
+		max-height: 30px;
+		margin-right: 50px;
+	}
+
+	&.closed {
+		left: -250px;
+	}
+}
+
+.search-location-wrapper {
+	margin-top: 50px;
+	padding: 50px 0 30px 0;
+	background: url("/image/search-bg.jpg");
+	background-repeat: no-repeat;
+	font-family: "Ubuntu", sans-serif;
+
+	h2 {
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	.searching {
+		border-radius: 20px;
+		background: transparent;
+		padding: 12px;
+		text-indent: 10px;
+	}
+	.searching:focus {
+		background: white;
+	}
+	.fa-search {
+		padding-top: 7px;
+		padding-left: 5px;
+	}
+
+	.search-wrapper {
+		i {
+			position: absolute;
+			top: 10px;
+			left: 8px;
+		}
+		.form-control {
+			padding-left: 30px;
+		}
+	}
+}
+
+.location {
+	margin-top: 20px;
+}
+.experience-text-style {
+	font-family: "Ubuntu", sans-serif;
+}
+.host-name {
+	color: rgb(35, 27, 95);
+	margin: 0px;
+}
+.experience-host {
+	font-size: 13px;
+	color: grey;
+}
+.experience-city {
+	margin-left: 25px;
+	font-size: 15px;
+}
+.experience {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.text-overview {
+	font-size: 15px;
+}
+
+.overview-main {
+	font-size: 30px;
+	font-weight: 500;
+	font-style: bold;
+}
+
+.tab1-text {
+	padding-top: 80px;
+	margin-left: 85px;
+	font-family: "Ubuntu", sans-serif;
+	margin-right: 20px;
+}
+
+.tab1-pic-wrapper {
+	padding-top: 40px;
+}
+.tab2-pic-wrapper {
+	position: relative;
+	padding-top: 40px;
+	width: 100%;
+}
+.round-border {
+	border-radius: 20px 0px 20px;
+}
+.tab-wrapper {
+	font-size: 15px;
+	font-family: "Lato", sans-serif;
+	color: rgb(35, 27, 95);
+	//border: none !important;
+}
+.tab2-pic {
+	width: 100%;
+	border-radius: 30px 0px 30px;
+}
+.main-text-style {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+}
+.tab2-text-wrapper {
+	position: absolute;
+	bottom: 0px;
+	background: white;
+	width: 40%;
+	float: right;
+	padding: 30px;
+}
+.tab2-text-style {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 15px;
+	margin: 0;
+}
+
+.card {
+	transition: 0.3s;
+	border: 0px;
+	margin-right: 20px;
+	margin-bottom: 12px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.experience-pic {
+	width: 100%;
+}
+
+.card-body {
+	padding: 10px;
+}
+.card-text {
+	margin: 5px;
+}
+.tab4-pic {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.tab5-pic {
+	width: 100px;
+}
+.text-center {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.tab5-text {
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+}
+.username {
+	margin-right: 15px;
+}
+.articles {
+	margin-bottom: 20px;
+	width: 250px;
+}
+.leave-review {
+	margin-top: 20px;
+	color: white;
+	font-size: 14px;
+	background-color: rgb(35, 27, 95);
+	width: 170px;
+	border-radius: 20px 0px 20px;
+	text-align: center;
+	align-content: center;
+	margin-bottom: 40px;
+	height: 35px;
+	*:focus {
+		outline: none;
+	}
+	cursor: pointer;
+}
+
+.user-data {
+	font-size: 13px;
+	margin: 0;
+	color: grey;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+}
+.review-text {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 15px;
+}
+.com2 {
+	margin-right: 20px;
+}
+.stars-display {
+	display: inline;
+}
+
+.depth-1 {
+	padding-right: 60px;
+}
+
+.reply-button {
+	color: rgb(35, 27, 95);
+
+	font-size: 13px;
+}
+.fa-reply {
+	color: rgb(35, 27, 95);
+}
+
+.reply-right {
+	text-align: right;
+	margin-right: 20px;
+}
+.reply {
+	padding-right: 40px;
+}
+.right {
+	text-align: right;
+	margin-right: 15px;
+}
